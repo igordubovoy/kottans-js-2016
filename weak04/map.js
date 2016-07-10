@@ -1,5 +1,5 @@
 Promise.prototype.myMap = function (array, mapper) {
-  var
+  let
     result = [],
     isRejected = false;
 
